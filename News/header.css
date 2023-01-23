@@ -15,6 +15,18 @@
   width: 70px;
   height: 70px;
 }
+.na {
+  animation: nav-load 300ms ease-in;
+}
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
 @media (max-width: 770px) {
   .dr {
     background-color: rgba(66, 66, 66, 0.829);

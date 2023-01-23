@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  scroll-behavior: smooth;
   overflow-x: unset;
 
   font-family: "Raleway", sans-serif;
@@ -10,7 +9,7 @@
   box-sizing: border-box;
 }
 .nav1 {
-  background-color: black;
+  opacity: 0.8;
 }
 .a1 {
   padding: 15px;
@@ -159,6 +158,12 @@ input[type="submit"]:hover {
 .head {
   width: 50px;
 }
+.dr a {
+  color: aliceblue;
+}
+.dr a:hover {
+  color: black;
+}
 #ca p {
   text-align: center;
   justify-content: center;
@@ -174,6 +179,7 @@ input[type="submit"]:hover {
   top: 50px;
   background-attachment: fixed;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .ser h1 {
   color: cornsilk;
@@ -231,21 +237,21 @@ input[type="submit"]:hover {
   height: 750px;
   padding-bottom: 10px;
 }
-::selection {
-  background: gray;
-}
 
+::selection {
+  color: white;
+  background: #4083ff;
+}
 .lin {
   color: aliceblue;
 }
 .lin:hover {
   text-decoration: none;
   color: bisque;
-  text-decoration:underline;
+  text-decoration: underline;
   font-weight: bolder;
 }
 .col {
-
   padding: 25px;
 }
 .lasfoo {
@@ -262,7 +268,6 @@ input[type="submit"]:hover {
   color: white;
 }
 
-
 #foot {
   background-color: black;
   color: aliceblue;
@@ -273,7 +278,9 @@ input[type="submit"]:hover {
 }
 .lin:hover {
   text-decoration: none;
-  color: rgb(152, 155, 12);
+  color: bisque;
+  /* /* text-decoration: none; */
+  font-size: 17px;
 }
 .col {
   background-color: rgb(78, 78, 78);
@@ -297,7 +304,7 @@ input[type="submit"]:hover {
   text-align: center;
   color: white;
 }
-.page-footer{
+.page-footer {
   background-color: black;
 }
 .contact-deatails {
@@ -355,6 +362,13 @@ input[type="submit"]:hover {
   .cont {
     height: 800px;
   }
+  .a1 {
+    margin-left: -65px;
+  }
+  .a1 {
+    border-bottom: none;
+  }
+
   input[type="text"],
   select {
     margin-left: 0px;
@@ -387,11 +401,6 @@ input[type="submit"]:hover {
     margin-top: 50px;
     border: none;
   }
-  /* .dr {
-    background-color: rgba(0, 0, 0, 0.829);
-    color: rgb(255, 255, 255);
-  } */
-
   .dr a {
     color: white;
   }
@@ -402,9 +411,6 @@ input[type="submit"]:hover {
   }
   .lis {
     margin-left: -6rem;
-  }
-  .ul1 {
-    margin-left: -230px;
   }
   .ul1 a {
     border-bottom: 1px solid;
@@ -436,9 +442,11 @@ input[type="submit"]:hover {
     padding-left: 30px;
   }
   .a1 {
-    padding-left: 30px;
+    margin-left: -65px;
   }
-
+  .map1 {
+    height: 60vh;
+  }
   .conde {
     flex-direction: column;
   }

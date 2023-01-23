@@ -493,6 +493,9 @@ figure.effect-duke:hover p {
 
 .tm-p-3-section-1 {
   padding-top: 82px;
+  width: 100%;
+  /* margin-left: 0pt; */
+  margin-right: 50pt;
 }
 
 .tm-p-3-section-3 {
@@ -539,7 +542,7 @@ hr {
 }
 
 .tm-p-mb {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .tm-text-right-container {
@@ -551,12 +554,15 @@ hr {
 }
 
 #bg_img_31 {
-  background-image: url(../img/budget.jpg);
+  background-image: url(../img/budget1.jpg);
   height: 640px;
+  /* width: 1140px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 100%;
 }
+
 #bg_img_35 {
   background-image: url(../img/img.jpg);
   height: 740px;

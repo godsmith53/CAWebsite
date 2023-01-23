@@ -72,6 +72,18 @@ html, body{
        line-height: 25px;
        color: #fff;
 }
+.na {
+  animation: nav-load 300ms ease-in;
+}
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
 .button {
     width: 200px;
        padding: 15px 0;
